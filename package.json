@@ -1,0 +1,25 @@
+{
+  "name": "kucoin-websockets",
+  "version": "0.1.7",
+  "main": "index.js",
+  "description": "Fault tolerant auto-reconnecting Websocket API for Kucoin",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "reconnecting-websocket": "^4.4.0",
+    "ws": "^8.8.1",
+    "zlib-node": "^1.0.10"
+  },
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/financestack/kucoin-websockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/financestack/kucoin-websockets/issues"
+  },
+  "homepage": "https://github.com/financestack/kucoin-websockets#readme"
+}
